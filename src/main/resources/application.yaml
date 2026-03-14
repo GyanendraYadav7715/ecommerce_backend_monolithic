@@ -6,7 +6,7 @@ spring:
     accessTokenExpiration: ${ACTOKEXP}
     refreshTokenExpiration : ${RETOKEXP}
   profiles:
-    active: dev
+    active: ${ SPRING_PROFILES_ACTIVE }
 
 stripe:
     secretKey: ${STRIPE_SECRET_KEY}
