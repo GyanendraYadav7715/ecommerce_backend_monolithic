@@ -135,5 +135,8 @@ You can access the Swagger UI Documentation at `http://localhost:8080/swagger-ui
 - **Dockerization**: Add a `Dockerfile` and `docker-compose.yml` to package the application and MySQL together for 1-click deployments.
 
 ---
+### Packageing
+- ./mvnw clean package
+- java -jar target/store-1.0.0-SNAPSHOT.jar
 ### **Note**: 
 To learn the depth of this project, architecture, code-reviews, and industry standards, explore the `/learning` directory in the root of the repository.
